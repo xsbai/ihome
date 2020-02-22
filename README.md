@@ -33,9 +33,9 @@
 1. 阅读项目目录。
 
 2. 创建虚拟环境、安装项目依赖：
-
+```
    pip install -r requirements.txt
-
+```
 3. 注册[容联云通讯](www.yuntongxun.com)，在utils文件夹下的sms.py文件里修改配置。
 
 4. 注册[七牛云](www.qiniu.com) ，在utils文件夹下的image_storage.py文件里修改配置信息，在constants.py文件里修改七牛的空间外链域名。
@@ -43,11 +43,11 @@
 5. 在mysql数据库中创建数据库名称，在config文件里 SQLALCHEMY_DATABASE_URI 修改数据库名称。
 
 6. 创建表：
-
+```
    python manage.py db init
    python manage.py db migrate
    python manage.py db upgrade
-
+```
 7. 把areas_facility.sql文件的insert语句插入数据库中。
 
 
