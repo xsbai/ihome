@@ -2,8 +2,6 @@
 
 传智播客Python教程所学习的项目,该项目按照爱家租房网开发的实际上线项目,实现所有基本功能,采用前后端分离的方式进行开发
 
-### [项目详细介绍目录](https://github.com/yuanwenq/iHome-python/blob/master/SUMMARY.md)
-
 ### 技术栈
 - [x] python
 - [x] flask
