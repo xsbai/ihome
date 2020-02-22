@@ -102,5 +102,5 @@
 |-- config.py                               # 项目配置文件
 |-- manage.py                               # 项目启动文件
 |-- requirement.txt                         # 项目依赖配置文件
-`-- README.md    							# 项目说明
+`-- README.md                               # 项目启动文件
 ```
